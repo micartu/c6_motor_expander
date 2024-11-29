@@ -1,0 +1,70 @@
+{
+  "configurations": [
+    {
+      "name": "STM32 F0",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [
+        "USE_HAL_DRIVER",
+        "STM32F103xB"
+      ],
+      "macFrameworkPath": [],
+      "compilerPath": "/Users/michael/stm32/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc",
+      "compilerArgs": [
+        "-mcpu=cortex-m3",
+        "-mthumb"
+      ],
+      "cStandard": "c11",
+      "cppStandard": "gnu++14",
+      "intelliSenseMode": "macos-gcc-arm",
+      "configurationProvider": "ms-vscode.makefile-tools"
+    },
+    {
+      "name": "TSTM32",
+      "includePath": [
+        "${workspaceFolder}/Core/Inc/modules/",
+        "${workspaceFolder}/Core/Inc/adapters/",
+        "${workspaceFolder}/tests/fakes/hal/",
+        "${workspaceFolder}/build/_deps/cpputest-src/include/"
+      ],
+      "defines": [],
+      "macFrameworkPath": [],
+      "compilerPath": "/usr/bin/clang",
+      "compilerArgs": [],
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "macos-gcc-arm",
+      "configurationProvider": "ms-vscode.cmake-tools",
+      "browse": {
+        "path": [
+          "${workspaceFolder}/Core/Inc/modules/",
+          "${workspaceFolder}/Core/Inc/adapters/",
+          "${workspaceFolder}/tests/fakes/hal/",
+          "${workspaceFolder}/build/_deps/cpputest-src/include/"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      }
+    },
+    {
+      "name": "STM32",
+      "includePath": [
+        "Core/Inc",
+        "Core/Inc/adapters",
+        "Core/Inc/modules",
+        "Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+        "Drivers/CMSIS/Include",
+        "Drivers/STM32F1xx_HAL_Driver/Inc",
+        "Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+      ],
+      "defines": [
+        "STM32F103x6",
+        "STM32F103xB",
+        "USE_HAL_DRIVER"
+      ],
+      "compilerPath": "/Users/michael/stm32/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc"
+    }
+  ],
+  "version": 4
+}

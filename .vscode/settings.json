@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "rpm_measurer.h": "c",
+        "irq.h": "c"
+    },
+    "stm32-for-vscode.openOCDPath": false,
+    "stm32-for-vscode.armToolchainPath": "/Users/michael/stm32/opt/gcc-arm-none-eabi-9-2020-q2-update/bin",
+    "cmake.configureOnOpen": false
+}
